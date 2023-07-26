@@ -47,15 +47,6 @@ a{
     margin-top: 32px;
 }
 
-.weight{
-    color: #FFF;
-    font-family: Montserrat;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 32px;
-}
-
 .heading__button{
     display: block;
     color: #FFF;
@@ -72,6 +63,14 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.weight{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
 }
 
 .game_blok{
