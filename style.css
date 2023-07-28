@@ -11,8 +11,8 @@ a{
     text-decoration: none;
 }
 .center{
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
 }
 
 .heading{
@@ -20,7 +20,6 @@ a{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 1440px;
     height: 1024px;}
 
 .heading__logo{
@@ -74,19 +73,16 @@ a{
 }
 
 .game_blok{
-    width: 1440px;
     height: 556px;
-    flex-shrink: 0;
     background: #000915;
     
 }
 .game_blok__section{
-    display:grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 32px;
+    display: flex;
+    gap: 32px;  
 }
+
 .game_blok_content{
-    grid-column: span 4px;
     width: 379px;
     height: 300px;
     flex-shrink: 0;
