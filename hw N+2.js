@@ -48,4 +48,4 @@ console.log(user[info]);
 alert(console.log(user[info]));
 
 let newname=prompt('Введите ваше имя?');
-alert(`Привет, ${newname} !`);
+alert(`Привет, ${newname}!`);
