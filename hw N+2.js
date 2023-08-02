@@ -29,9 +29,6 @@ num *= 7;
 num /= 3;
 num += 1;
 num -=1;
-num++;
-++num;
--num;
 alert(num);
 
 let newage= prompt('Сколько Вам лет?');
