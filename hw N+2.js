@@ -3,10 +3,10 @@ alert(a);
 a=20;
 alert(a);
 
-let age=('год выпуска первого iPhone');
+let age='год выпуска первого iPhone';
 alert(age);
 
-let names=('имя создателя языка JavaScript');
+let names='имя создателя языка JavaScript';
 alert(names);
 
 let order=10;
@@ -44,9 +44,9 @@ const user= {
     isAdmin: true,
 }
 
-user [`city of residence`];
+user["city of residence"]= 'moscow';
 user.age=18;
-delete user[`city of residence`];
+delete user["city of residence"];
 let info= prompt("Какую информацию хотите узнать о пользователе?");
 console.log(user[info]);
 
