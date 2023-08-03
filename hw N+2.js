@@ -1,12 +1,16 @@
-let a=20;
+let a=10;
+alert(a);
+a=20;
 alert(a);
 
-let age= Number(prompt('год выпуска первого iPhone'));
+let age=('год выпуска первого iPhone');
+alert(age);
 
-let name= String(prompt('имя создателя языка JavaScript'));
+let names=('имя создателя языка JavaScript');
+alert(names);
 
 let order=10;
-let method=20;
+let method=2;
 alert(order+method);
 alert (order-method);
 alert (order*method);
@@ -36,13 +40,16 @@ alert(newage);
 
 const user= { 
     name: "Dekster",
-    year: 29, 
+    age: 29, 
     isAdmin: true,
 }
+
+user [`city of residence`];
+user.age=18;
 delete user[`city of residence`];
 let info= prompt("Какую информацию хотите узнать о пользователе?");
 console.log(user[info]);
-alert(console.log(user[info]));
+
 
 let newname=prompt('Введите ваше имя?');
 alert(`Привет, ${newname}!`);
