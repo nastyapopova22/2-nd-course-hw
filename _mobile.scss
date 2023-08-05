@@ -1,0 +1,50 @@
+@media (max-width: 767px) {
+    .none_input {
+      display: none;
+    }
+
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+
+      .heading{
+        height: 735px;
+      }
+      
+    .heading__logo{
+        width: 343px;
+        height: 77px;
+        color: #FFF;
+        text-align: center;
+        font-size: 32px;
+        padding-top: 238px;
+    }
+
+    .heading__paragraph{
+        width: 343px ;
+        font-size: 14px;
+        text-align: center;
+    }
+    .heading__button{
+        margin-top: 33px;
+        margin-left: 54px;
+        margin-bottom: 238px;
+    }
+
+    .game_blok__section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    }
+    .game_blok{
+     height: 1221px;
+    }
+    .game_blok_content{
+        width: 343px;
+        margin-bottom: 32px;
+        margin-top: 32px;
+    }
+    
+
+ }
