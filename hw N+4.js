@@ -25,7 +25,7 @@ while (a <= 5) {
     "Коля": 200,
     "Вася": 300,
     'Петя': 400,};
-for (key in obj) {
+for ( let key in obj) {
     if (obj[key]){
         console.log ([key] + " - зарплата " + obj[key] + " долларов ");
     }
@@ -35,16 +35,16 @@ for (key in obj) {
 let n = 1000;
 let num = 0;
 while (n > 50) {
-    console.log  (n);
-    console.log (num);
     num++;
     n /= 2;
+    console.log  (n);
+    console.log (num);
 }
 
 // задание 6
 
 for ( let day = 6; day <= 31; day +=7) {
-    console.log (' Сегодня пятница ${day}- число. Необходимо подготовить отчет.');
+    console.log (`Сегодня пятница ${day}- число. Необходимо подготовить отчет.`);
 }
 
 
