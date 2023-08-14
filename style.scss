@@ -72,7 +72,6 @@
 }
   .weight{
       color: #FFF;
-      font-family: Montserrat;
       font-size: 18px;
       font-style: normal;
       font-weight: 700;
@@ -124,5 +123,96 @@
   .section_3{
       background-image: url(img/game3.png);
   }
+
+
+  .season__blok{
+    height: 800px;
+    background: #000915;
+    padding-top: 282px;
+   }
+
+  .season__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    padding-bottom:  32px;
+    width: 584px;
+    
+}
+
+  .season__logo{
+color: #FFF;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.season__paragraph{
+        width: 481px;
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 32px; /* 177.778% */
+        margin-top: 32px;
+}
+
+.season__button{
+        display: block;
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 234px;
+        height: 48px;
+        flex-shrink: 0;
+        border-radius: 30px;
+        background: #9C0332;
+        margin-top: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        &:hover{
+              border: 3px dotted #3a7999;
+              color: #e9f5fa;
+              background: rgba(0,0,0,0);
+        }
+} 
+.season_blok_content{
+    width: 379px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    margin-bottom: 128px;
+}
+
+  .img{
+    width: 485px;
+    height: 333px;
+}
+
+  .section_4{
+    background-image: url(img/season.png);
+    width: 485px;
+    height: 333px;
+    background-repeat: no-repeat;
+}
+
+.season__info{
+    display: flex;
+    justify-content: space-between;
+}
   
 @import 'mobile';

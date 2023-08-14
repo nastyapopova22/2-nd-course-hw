@@ -45,6 +45,40 @@
         margin-bottom: 32px;
         margin-top: 32px;
     }
-    
+    .season__logo{
+        width: 343px;
+        height: 39px;
+        color: #FFF;
+        text-align: center;
+        font-size: 32px;
+    }
+    .season__blok{
+        height: 653px;
+        padding-top: 51px;
+    }
+    .season__paragraph{
+        width: 343px ;
+        font-size: 14px;
+        text-align: center;
+    }
+    .season__button{
+        margin-top: 33px;
+        margin-left: 54px;
+    }
+    .season__info{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 344px;
+        height: 236px;}
+
+    .season_blok_content{
+        width: 343px;
+        margin-bottom: 32px;
+        margin-top: 32px;
+    }
+
+    .section_4{
+        background-image: url(img/mobile.png);}
 
  }
