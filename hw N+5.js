@@ -28,7 +28,7 @@ console.log(comparison(8));
  }
  
  function square(p) {
-    return (p**p);
+    return (p**2);
  
   }
 
@@ -45,27 +45,29 @@ console.log(comparison(8));
     } else if (answer >= 0 && answer <= 12) {
         return alert('Привет, друг!');
         
-    } else (answer >= 13) 
+    } else (answer >= 13)
     return alert('Добро пожаловать!');
     }
+ 
 age();
 
 // задание 5
 const type = (n, d) => {
     if (isNaN (Number(n)) || isNaN (Number(d))) {
         return (' Одно или оба значения не являются числом');
-    } else 
+    } else {
         return (n * d);
     }
+}
 
 
 //задание 6
 function example () {
     let cube = prompt('Введите число');
-    if (cube ** 3) {
-        alert(`n в кубе равняется ${cube} `);
-    } else 
-        alert ('Переданный параметр не является числом');
+    if (isNaN(cube) || cube === "" || cube === null) {
+        alert(`Переданный параметр не является числом`);
+    } else{ 
+        alert (`${cube} в кубе равняется ${cube ** 3} `);
     }
 
 
@@ -85,7 +87,7 @@ function getRectangleArea() {
     getArea: getRectangleArea,
     getPerimeter: getRectanglePerimeter,
   };
-  
+
   const circle2 = {
     radius: 10,
     p: 3.14,
@@ -98,4 +100,4 @@ function getRectangleArea() {
   console.log(circle1.getPerimeter());
   console.log(circle2.getArea());
   console.log(circle2.getPerimeter());
-
+}
