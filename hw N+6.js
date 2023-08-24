@@ -2,11 +2,11 @@
 
 let number = [1, 5, 4, 10, 0, 3];
 for ( let i=0; i < number.length; i++) {
-    if (number [i] == 10) break;
     console.log(number [i]);
+    if (number [i] == 10) 
+    break;
+   
 }
-
-
 
 // задание 2
 let array = [1, 5, 4, 10, 0, 3];
@@ -18,14 +18,21 @@ task = task.join(' ');
 console.log(task);
 
 // задание 4
+let arr = [[1, 1, 1], [1, 1, 1], [1, 1, 1]];
 
-let arr = [[1, 1, 1],
-          [ 1, 1, 1],
-          [ 1, 1, 1],
-]
+for (let i = 0; i < 1; i++) {
+	arr[i] = [1, 1, 1]; //
+	
+	for (let j = 0; j < 1; j++) {
+		arr[i].push(j + 1); 
+	}
+}
+
+console.log(arr);
+
 // задание 5
 let and = [ 1, 1, 1];
-and.push('2, 2, 2');
+and.push(2, 2, 2);
 console.log(and);
 
 // задание 6
@@ -45,20 +52,18 @@ if (newNumber >= 5 && newNumber <=9) {
     alert(' Не угадал');
 }
 
+
 // задание 8
 
-let target = ['a','b', 'c','d','e','f'];
+let target = ['abcdef'];
 target.reverse();
+target. join('');
 console.log(target);
 
 //задание 9
-
 let labor = [[1, 2, 3],[4, 5, 6]];
-for (let arrIn of labor) {
-  for (let element of arrIn) {
-    console.log(element);
-  }
-}
+labor.concat();
+console.log(labor);
 
 //задание 10
 
@@ -69,7 +74,7 @@ for ( let i= 0; i < sum.length; i++ ) {
 //задание 11
 
 const suareNumber = [ 2, 5, 7];
-const amount = suareNumber.map((num) => num *2);
+const amount = suareNumber.map((num) => num ** 2);
 console.log(amount);
 
 // задание 12
@@ -78,9 +83,9 @@ const getLenghtWords = sourse => sourse.map(str => str.length);
 console.log(getLenghtWords (['слово', '', 'слог', 'длинное предложение', 'буква']));
 
 // задание 13
-
-function filterPositive (array){
-  indexOf ((array) => array < 0 );
-  }
-  console.log(filterPositive);
+const help = ([-1, 0, 5, -10, 56]);
+function filterPositive (help){
+    return help < 0
+}
+  
   console.log(filterPositive);
