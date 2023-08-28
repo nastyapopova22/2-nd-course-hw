@@ -215,6 +215,76 @@ a {
   justify-content: space-between;
 }
 
+.game_two {
+  height: 800px;
+  background: #000915;
+}
+.game_two__info {
+  display: flex;
+  justify-content: space-between;
+}
+.game_two__text {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  padding-bottom: 32px;
+  width: 584px;
+  padding-left: 135px;
+  padding-top: 282px;
+}
+.game_two__logo {
+  color: #FFF;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.game_two__paragraph {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  width: 588px;
+}
+.game_two_content {
+  width: 379px;
+  height: 300px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  margin-bottom: 128px;
+  padding-top: 239px;
+}
+.game_two__button {
+  display: block;
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 234px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #9C0332;
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.game_two__button:hover {
+  border: 3px dotted #3a7999;
+  color: #e9f5fa;
+  background: rgba(0, 0, 0, 0);
+}
+
+.img {
+  width: 481px;
+  height: 322px;
+}
+
 @media (max-width: 767px) {
   .none_input {
     display: none;
@@ -291,5 +361,55 @@ a {
   }
   .section_4 {
     background-image: url(img/mobile.png);
+  }
+  .game_two__logo {
+    width: 343px;
+    height: 39px;
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+  }
+  .game_two__blok {
+    height: 653px;
+    padding-top: 51px;
+  }
+  .game_two__paragraph {
+    width: 343px;
+    font-size: 14px;
+    text-align: center;
+  }
+  .game_two__button {
+    margin-top: 33px;
+    margin-left: 54px;
+  }
+  .game_two__info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .game_two__text {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    width: 343px;
+    padding-left: 0px;
+    padding-top: 51px;
+  }
+  .game_two_content {
+    width: 379px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    margin-bottom: 128px;
+    padding-top: 61px;
+  }
+  .section_5 {
+    background-image: url(img/gametwomob.svg);
+  }
+  .img {
+    width: 344px;
+    height: 231px;
   }
 }/*# sourceMappingURL=style.css.map */
