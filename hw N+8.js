@@ -100,5 +100,13 @@ function sayHi (name) {
     console.log(`Привет, ${name}!`);
 }
 
+function nearestSq(n){
+  nearestSq = Math.pow(Math.round(Math.sqrt(n)), 2);
+  }
+  console.log(nearestSq(117));
 
-     
+  function nearestSq(n){
+    nearestSq = Math.pow(Math.round(Math.sqrt(n)), 2);
+    return (n);
+    }
+    console.log(nearestSq(117));
